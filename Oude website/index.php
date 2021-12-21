@@ -20,17 +20,17 @@
     <a class="button" href="Project.html" > Project </a>
 
     <a class="button" href="feed.xml" target="_blank">RSS feed</a>
+	
+	<a class="button" href="php.html" target="_blank">PHP</a>
     </ul>
 </div>
     
 <h1> Sam Mentens </h1>	<!-- heathers nummer is groote bassicly -->
 
-<h2> Epic boss stats</h2>
-
 <div class="block">
 
 <p>Name: Sam Mentens<br /><br />
-Age: 18<br /><br />
+Age: 19<br /><br />
 Height: 194cm<br /><br />
 Education: Electronics-ICT<br /><br />
 Hobbys: Wall climbing<br /><br />
@@ -55,7 +55,7 @@ Steam: 304371358</p>
 </div>
 
 <div class="footer">
-    <p>Made by Sam</p>p>
+    <p>Made by Sam</p>
 </div>
 
 </body>			<!-- body close -->

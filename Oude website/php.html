@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<script type="text/javascript" src="Java.js"></script>
+    
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<title>Project</title>			<!-- title van het tabblad -->
+</head>
+
+<body>			<!-- body open -->
+
+<div class="navbar">
+<br>
+    <ul>
+    <a class="button" href="index.html" > Home </a>
+    
+    <a class="button" href="https://github.com/SamMentens" target="_blank"> Github </a>
+
+    <a class="button" href="Verslag.html" > Verslag </a>
+
+    <a class="button" href="Project.html" > Project </a>
+
+    <a class="button" href="feed.xml" target="_blank">RSS feed</a>
+	
+	<a class="button2" href="php.html" target="_blank">PHP</a>
+        
+    <div class="dropdown">
+        
+        <button class="dropbtn" onclick="myFunction()">Dropdown
+      
+        <i class="fa fa-caret-down"></i>
+      
+        </button>
+        
+        <div class="dropdown-content" id="myDropdown">
+        
+            <a href="#">Bright mode</a>
+        
+            <a href="#">Dark mode</a>
+      
+            <a href="#">Rick</a>
+      
+        </div>
+        
+    </div> 
+        
+    </ul>
+    
+</div>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<body>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
+    
+<h1> Sam Mentens </h1>
+    
+
+<div class="footer">
+<p>Made by Sam<p/>
+</div>
+
+</body>			<!-- body close -->
+
+</html>
