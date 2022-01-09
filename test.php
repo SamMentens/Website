@@ -7,6 +7,12 @@
 <link rel="stylesheet" href="style.css" />
     
 <?php
+echo date( "Y-m-d", strtotime( "now -1 day" ) );
+echo date( "Y-m-d", strtotime( "now -2 day" ) );
+?>
+    
+    
+<?php
     
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
@@ -21,11 +27,11 @@ if ($conn->connect_error) {
     
 $sql = "SELECT id, Light, Temperature, reg_date FROM DATA";
 
-$id = "SELECT id FROM DATA";
+$value = "SELECT id FROM DATA";
 
-$result = mysqli_query($conn, $sql);
-    
-echo "<table style="background-color:powderblue;">
+$result = mysqli_query($conn, $sql);  
+
+echo "<table>
 <tr>
     <th>id</th>
     <th>Light</th>
