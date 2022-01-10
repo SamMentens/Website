@@ -12,5 +12,4 @@
         <button type="submit" name="submit"> Add to table</button>
     </form>
     
-
 </body>
